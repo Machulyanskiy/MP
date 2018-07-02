@@ -1,0 +1,23 @@
+a{
+
+
+    color: #5b5b5b;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav-container{
+    display: flex;
+}
+
+#main-nav{
+    transform: rotate(-90deg);
+    /*transform-origin: left top 0;*/
+    float:left;
+}
