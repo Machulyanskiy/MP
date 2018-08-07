@@ -15,11 +15,14 @@ html, body{
     overflow-y: hidden;
     overflow-x: scroll;
 }
+
+body {
+    display: flex;
+}
+
 a{
     color: #111111;
-    /*font-size:16px;*/
     font-size:24px;
-    /*font-weight: bold;*/
 }
 
 a:hover{
@@ -37,16 +40,45 @@ ul{
     float:left;
 }*/
 
+footer{
+    max-height: 1px;
+    background-color: white;
+    /*position: absolute;
+    top: 0;
+    margin-left: calc(100% - 50px);*/
+    -webkit-transform-origin: left top;
+    -webkit-transform: rotate(-90deg) translateX(-100%);
+   /* margin: 0 5vh;*/
+}
+
+footer p{
+    width: 100vh;
+    text-align: center;
+    margin: 13px 0;
+    font-size: 16px;
+}
+
+footer i{
+    color: #888888;
+    margin-right: 2px;
+}
+
 #navbar{
+    background-color: white;
     position:fixed;
     -webkit-transform-origin: left top;
     -webkit-transform: rotate(-90deg) translateX(-100%);
-    margin: 0 5vh;
+    /*margin: 0 5vh;*/
 }
 
 #main-nav {
     width:100vh;
     height:45px;
+    margin: 5vh 0 0 0;
+}
+
+.main-nav-active{
+    margin: 1vh 0vh;
 }
 
 #nav-container{
@@ -65,7 +97,8 @@ ul{
 }
 #container{
     height: 100%;
-    margin-left: calc(10vh + 45px);
+    /*margin-left: calc(10vh + 45px);*/
+    margin-left: 10vh;
 }
 
 #home-album{
@@ -84,4 +117,13 @@ ul{
 
 img{
     height: 100%;
+}
+
+#contact-block{
+
+}
+
+#contact-block p{
+    font-size: 22px;
+    margin: 0;
 }
