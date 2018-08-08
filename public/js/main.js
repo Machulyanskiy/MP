@@ -1,6 +1,5 @@
 $(function() {
-    /*console.log(11);
-    window.addEventListener('scroll', function(){
+    /*window.addEventListener('scroll', function(e) {
         console.log(1);
         var navbar = document.getElementById('main-nav');
         if (window.scrollX > 0) {
@@ -12,6 +11,11 @@ $(function() {
         }
     });*/
 
+   /* $("body").scroll(function(){
+       console.log('bibka');
+
+    });
+*/
     $("body").mousewheel(function(event, delta) {
 
         this.scrollLeft -= (delta * 40);
