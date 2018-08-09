@@ -16,6 +16,15 @@ $(function() {
 
     });
 */
+    var offset = $("#container").offset().left - 50;
+    $("body").scroll(function(){
+        if(offset > $("#container").offset().left) {
+            $('#main-nav').addClass('main-nav-active');
+        } else {
+            $('#main-nav').removeClass('main-nav-active');
+        }
+    });
+
     $("body").mousewheel(function(event, delta) {
 
         this.scrollLeft -= (delta * 40);
