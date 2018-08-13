@@ -20,8 +20,12 @@
                     <li class="mx-0 mx-lg-1">
                         <a class="js-scroll-trigger" href="/">Maxim Vitenchuk</a>
                     </li>
-                    <li class="mx-0 mx-lg-1">
-                      <a class="js-scroll-trigger" href="#">Portfolio</a>
+                    <li id="portfolio" class="mx-0 mx-lg-1">
+                      <a class="js-scroll-trigger" href="#">Portfolio<i class="arrow"></i></a>
+                        <ul id="portfolio-menu">
+                            <li>lorem</li>
+                            <li>ipsum</li>
+                        </ul>
                     </li>
                     <li class="mx-0 mx-lg-1">
                       <a class="js-scroll-trigger" href="#">Exhibitions</a>
@@ -46,8 +50,6 @@
                 <p>cupidatat non proident, sunt in culpa qui officia deserunt</p>
                 <p>mollit anim id est laborum.</p>
             </div>
-
-
         </section>
 
         <section id="container">
