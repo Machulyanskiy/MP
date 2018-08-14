@@ -12,10 +12,18 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index() {
-        return view('home');
+        return view('home', ['menu' => 'p', 'item' => 'lorem']);
     }
 
     public function contact() {
-            return view('contact');
+            return view('contact', ['menu' => 'c']);
+    }
+
+    public function exhibitions() {
+        return view('exhibitions', ['menu' => 'e']);
+    }
+
+    public function plf() {
+        return view('plf', ['menu' => 'p', 'item' => 'plf']);
     }
 }

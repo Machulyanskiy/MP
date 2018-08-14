@@ -17,3 +17,6 @@
 
 Route::get('/', 'Controller@index');
 Route::get('contact', 'Controller@contact');
+Route::get('exhibitions', 'Controller@exhibitions');
+Route::get('plf', 'Controller@plf');
+Route::get('lorem', 'Controller@index');

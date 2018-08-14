@@ -29,12 +29,18 @@ a:hover{
     color: #ef6e7e;
 }
 
+a.active {
+    color: #ef6e7e;
+}
+
 ul{
     list-style: none;
 }
 
 footer{
-    max-height: 1px;
+    margin-left: -55px;
+    height: fit-content;
+    min-height: 1px;
     background-color: white;
     -webkit-transform-origin: left top;
     -webkit-transform: rotate(-90deg) translateX(-100%);
@@ -63,7 +69,7 @@ footer i{
 #main-nav {
     width: calc(100vh - 17px);
     height:45px;
-    margin: 5vh 0 0 0;
+    margin: 3vw 0 0 0;
     -webkit-transition:  margin 0.3s;
     -moz-transition:  margin 0.3s;
     transition: margin 0.3s;
@@ -86,8 +92,9 @@ footer i{
     line-height:45px;
 }
 #container{
+    display: flex;
     height: 100%;
-    margin-left: 30vh;
+    margin-left: 13vw;
 }
 
 #home-album{
@@ -107,19 +114,10 @@ img{
     height: 100%;
 }
 
-#contact-block{
-
-}
-
-#contact-block p{
-    font-size: 22px;
-    margin: 0;
-}
-
 #description{
     position: absolute;
     top: 40vh;
-    left: calc(10vh + 45px);
+    left: calc(6vw + 45px);
     max-width: 50vh;
     font-size: 20px;
     opacity: 1;
@@ -160,11 +158,15 @@ img{
     -moz-transition: opacity 0.2s linear;
     -ms-transition: opacity 0.2s linear;
     -o-transition: opacity 0.2s linear;
+    position: relative;
+    top: 45px;
+    right: 40px;
 }
 
 #portfolio-menu li{
     border: 1px solid #111111;
     border-left: 0;
+    padding: 0 10px;
 }
 
 #portfolio-menu li:nth-child(2){
@@ -190,4 +192,24 @@ img{
 
 #portfolio:hover #portfolio-menu{
     opacity: 1!important;
+}
+
+#info-wrap{
+    width: 74vw;
+    margin-top: 40vh;
+}
+
+#info-block{
+    width: fit-content;
+    margin: auto;
+}
+
+#info-block p{
+    font-size: 22px;
+    margin: 0;
+}
+
+#ghost-block{
+    min-height: 1px;
+    width: calc(10vw + 5px);
 }

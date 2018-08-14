@@ -1,5 +1,7 @@
 $(function() {
-    console.log($("#container").offset().left);
+    if($("#description").length == 0) {
+        return false;
+    }
     var cont_offset = $("#container").offset().left - 70;
     var desc_offset = $("#description").offset().left;
     $("body").scroll(function(){
