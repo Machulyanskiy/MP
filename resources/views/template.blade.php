@@ -39,6 +39,7 @@
 
 
         <section id="container">
+            <div id="custom-cursor">THERE</div>
             @yield('content')
         </section>
 

@@ -97,6 +97,23 @@ footer i{
     margin-left: 13vw;
 }
 
+#container:not(#text-block){
+    cursor: none;
+}
+
+#container:not(#text-block):hover #custom-cursor{
+    display: block;
+}
+
+#custom-cursor{
+    padding:0px 10px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    font-size: 28px;
+    display: none;
+}
+
 #home-album{
     display: flex;
     height: 100%;
@@ -125,6 +142,10 @@ img{
     -moz-transition: left 0.5s ease-in-out, opacity 0.5s linear;
     -ms-transition: left 0.5s ease-in-out, opacity 0.5s linear;
     -o-transition: left 0.5s ease-in-out, opacity 0.5s linear;
+}
+
+#description:hover #custom-cursor{
+    border: 1px solid black;
 }
 
 .desc-hide{
