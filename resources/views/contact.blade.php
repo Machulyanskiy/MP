@@ -11,7 +11,6 @@
                 <p>Based in Kyiv, Ukraine</p>
             </div>
         </div>
-        <div id="ghost-block"></div>
     </div>
-
+    <div id="ghost-block"></div>
 @stop

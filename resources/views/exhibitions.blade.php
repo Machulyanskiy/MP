@@ -9,7 +9,6 @@
                 <p>2018 Vagabond cafe & vintage corner, Kyiv, Ukraine</p>
             </div>
         </div>
-        <div id="ghost-block"></div>
     </div>
-
+    <div id="ghost-block"></div>
 @stop

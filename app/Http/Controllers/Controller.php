@@ -12,7 +12,7 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index() {
-        return view('home', ['menu' => 'p', 'item' => 'lorem']);
+        return view('plf', ['menu' => 'p', 'item' => 'plf']);
     }
 
     public function contact() {
