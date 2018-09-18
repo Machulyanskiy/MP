@@ -16,62 +16,72 @@
     </section>
 
     <ul id="home-album">
-        <li>
-            <img class="slide-1"  src={{ asset('images/plf/01.jpg') }} alt="">
+        <li class="slide-1">
+            <img class="img-part-left"  src={{ asset('public/images/plf/mid/01(1).jpg') }} alt="">
+            <img class=""  src={{ asset('public/images/plf/mid/01(2).jpg') }} alt="">
+            <img class="img-part-right"  src={{ asset('public/images/plf/mid/01(3).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-2" src={{ asset('images/plf/02.jpg') }} alt="">
+        <li class="slide-2">
+            <img class="test-size" src={{ asset('public/images/plf/mid/02.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-3" src={{ asset('images/plf/03.jpg') }} alt="">
+        <li class="slide-3">
+            <img src={{ asset('public/images/plf/mid/03.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-4" src={{ asset('images/plf/04.jpg') }} alt="">
+        <li class="slide-4">
+            <img  src={{ asset('public/images/plf/mid/04.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-5" src={{ asset('images/plf/05.jpg') }} alt="">
+        <li class="slide-5">
+            <img class="indent" src={{ asset('public/images/plf/mid/05(1).jpg') }} alt="">
+            <img src={{ asset('public/images/plf/mid/05(2).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-6" src={{ asset('images/plf/06.jpg') }} alt="">
+        <li class="slide-6">
+            <img class="slide-9" src={{ asset('public/images/plf/mid/06.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-7" src={{ asset('images/plf/6.jpg') }} alt="">
+        <li class="slide-7">
+            <img class="nasty" src={{ asset('public/images/plf/mid/06(1).jpg') }} alt="">
+            <img src={{ asset('public/images/plf/mid/06(2).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-8" src={{ asset('images/plf/07.jpg') }} alt="">
+        <li class="slide-7 mobile">
+            <img class="indent" src={{ asset('public/images/plf/mid/06(1).jpg') }} alt="">
+            <img src={{ asset('public/images/plf/mid/06(2).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-9" src={{ asset('images/plf/7.jpg') }} alt="">
+        <li class="slide-8">
+            <img src={{ asset('public/images/plf/mid/07.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-10" src={{ asset('images/plf/08.jpg') }} alt="">
+        <li class="slide-9">
+            <img class="indent" src={{ asset('public/images/plf/mid/7(1).jpg') }} alt="">
+            <img src={{ asset('public/images/plf/mid/7(2).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-11" src={{ asset('images/plf/09.jpg') }} alt="">
+        <li class="slide-10">
+            <img src={{ asset('public/images/plf/mid/08.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-12" src={{ asset('images/plf/010.jpg') }} alt="">
+        <li class="slide-11">
+            <img src={{ asset('public/images/plf/mid/09.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-13" src={{ asset('images/plf/011.jpg') }} alt="">
+        <li class="slide-12">
+            <img src={{ asset('public/images/plf/mid/010.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-14" src={{ asset('images/plf/012.jpg') }} alt="">
+        <li class="slide-13">
+            <img class="indent" src={{ asset('public/images/plf/mid/011(1).jpg') }} alt="">
+            <img src={{ asset('public/images/plf/mid/011(2).jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-15" src={{ asset('images/plf/013.jpg') }} alt="">
+        <li class="slide-14">
+            <img src={{ asset('public/images/plf/mid/012.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-16" src={{ asset('images/plf/014.jpg') }} alt="">
+        <li class="slide-15">
+            <img src={{ asset('public/images/plf/mid/013.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-17" src={{ asset('images/plf/015.jpg') }} alt="">
+        <li class="slide-16">
+            <img src={{ asset('public/images/plf/mid/014.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-18" src={{ asset('images/plf/15.jpg') }} alt="">
+        <li class="slide-17">
+            <img src={{ asset('public/images/plf/mid/015.jpg') }} alt="">
         </li>
-        <li>
-            <img class="slide-19" src={{ asset('images/plf/16.jpg') }} alt="">
+        <li class="slide-18">
+            <img src={{ asset('public/images/plf/mid/15.jpg') }} alt="">
+        </li>
+        <li class="slide-19">
+            <img src={{ asset('public/images/plf/mid/16.jpg') }} alt="">
         </li>
     </ul>
 
